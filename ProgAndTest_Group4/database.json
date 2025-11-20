@@ -1,0 +1,175 @@
+{
+    "users": [
+        {
+            "name": "Duy Ph\u00fac",
+            "email": "duyphuc.0422@gmail.com",
+            "password": "Duyphuc123",
+            "role": "customer"
+        },
+        {
+            "name": "L\u00ea B\u00e1 Nguy\u00ean",
+            "email": "lbanguyen86@gmail.com",
+            "password": "123456",
+            "role": "customer"
+        },
+        {
+            "name": "ahaha@123.com",
+            "email": "ahaha@123.com",
+            "password": "123456",
+            "role": "customer"
+        },
+        {
+            "name": "phong123",
+            "email": "phong@gmail.com",
+            "password": "123",
+            "role": "customer"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 14 Pro Max",
+            "price": 28990000,
+            "stock": 20
+        },
+        {
+            "id": 2,
+            "name": "Samsung Galaxy S23 Ultra",
+            "price": 25990000,
+            "stock": 8
+        },
+        {
+            "id": 3,
+            "name": "MacBook Air M2",
+            "price": 28990000,
+            "stock": 5
+        },
+        {
+            "id": 4,
+            "name": "Chu\u1ed9t Logitech G102",
+            "price": 390000,
+            "stock": 25
+        },
+        {
+            "id": 5,
+            "name": "Tai nghe Sony WH-1000XM4",
+            "price": 4990000,
+            "stock": 12
+        },
+        {
+            "id": 6,
+            "name": "a",
+            "price": 1.0,
+            "stock": 0,
+            "description": "This is a bottle"
+        },
+        {
+            "id": 7,
+            "name": "pin",
+            "price": 2.0,
+            "stock": 16,
+            "description": "none"
+        }
+    ],
+    "orders": [
+        {
+            "order_id": 1,
+            "user": "duyphuc.0422@gmail.com",
+            "items": [],
+            "total": 0
+        },
+        {
+            "order_id": 2,
+            "user": "duyphuc.0422@gmail.com",
+            "items": [
+                {
+                    "order_id": 2,
+                    "product_id": 1,
+                    "quantity": 28990000,
+                    "unit_price": 28990000,
+                    "subtotal": 840420100000000
+                }
+            ],
+            "total": 840420100000000
+        },
+        {
+            "order_id": 3,
+            "user": "lbanguyen86@gmail.com",
+            "items": [
+                {
+                    "order_id": 3,
+                    "product_id": 1,
+                    "quantity": 1,
+                    "unit_price": 28990000,
+                    "subtotal": 28990000
+                }
+            ],
+            "total": 28990000
+        },
+        {
+            "order_id": 4,
+            "user": "duyphuc.0422@gmail.com",
+            "items": [
+                {
+                    "order_id": 4,
+                    "product_id": 1,
+                    "quantity": 1,
+                    "unit_price": 28990000,
+                    "subtotal": 28990000
+                },
+                {
+                    "order_id": 4,
+                    "product_id": 1,
+                    "quantity": 1,
+                    "unit_price": 28990000,
+                    "subtotal": 28990000
+                },
+                {
+                    "order_id": 4,
+                    "product_id": 6,
+                    "quantity": 2,
+                    "unit_price": 1.0,
+                    "subtotal": 2.0
+                }
+            ],
+            "total": 57980002.0
+        },
+        {
+            "order_id": 5,
+            "user": "phong@gmail.com",
+            "items": [
+                {
+                    "order_id": 5,
+                    "product_id": 7,
+                    "quantity": 4,
+                    "unit_price": 2.0,
+                    "subtotal": 8.0
+                }
+            ],
+            "total": 8.0
+        }
+    ],
+    "cart": {
+        "duyphuc.0422@gmail.com": [],
+        "lbanguyen86@gmail.com": [],
+        "ahaha@123.com": [],
+        "phong@gmail.com": []
+    },
+    "reports": [
+        {
+            "report_id": 1,
+            "total_orders": 3,
+            "total_revenue": 840420128990000,
+            "low_stock_products": [
+                6
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "phone",
+            "description": "none"
+        }
+    ]
+}

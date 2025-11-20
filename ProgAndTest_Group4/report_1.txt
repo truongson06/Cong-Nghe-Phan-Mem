@@ -1,0 +1,1 @@
+{'report_id': 1, 'total_orders': 3, 'total_revenue': 840420128990000, 'low_stock_products': [6]}

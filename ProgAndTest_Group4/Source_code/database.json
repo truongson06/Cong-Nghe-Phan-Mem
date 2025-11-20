@@ -1,0 +1,42 @@
+{
+    "users": [],
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 14 Pro Max",
+            "price": 28990000,
+            "stock": 10,
+            "description": "128GB, chính hãng VN/A"
+        },
+        {
+            "id": 2,
+            "name": "Samsung Galaxy S23 Ultra",
+            "price": 25990000,
+            "stock": 8,
+            "description": "Camera 200MP, Snapdragon 8 Gen 2"
+        },
+        {
+            "id": 3,
+            "name": "MacBook Air M2",
+            "price": 28990000,
+            "stock": 5,
+            "description": "M2, 8GB RAM, 256GB SSD"
+        },
+        {
+            "id": 4,
+            "name": "Chuột Logitech G102",
+            "price": 390000,
+            "stock": 25,
+            "description": "6 nút, DPI 8000, RGB"
+        },
+        {
+            "id": 5,
+            "name": "Tai nghe Sony WH-1000XM4",
+            "price": 4990000,
+            "stock": 12,
+            "description": "Chống ồn chủ động"
+        }
+    ],
+    "orders": [],
+    "cart": {}
+}
